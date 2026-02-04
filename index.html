@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Quản Lý Sinh Viên</title>
+</head>
+<body>
+    <div class="wrap-list">
+        <h1 style="text-align: center; background-color: aqua; margin-top: 0; opacity: .7; border-top-left-radius: 20px;border-top-right-radius: 20px;">DANH SÁCH THÀNH VIÊN</h1>
+        <ul>
+            <li>DH52200354 - Đoàn Ngọc Bảo - D22_TH07</li>
+            <li>DH52200538 - Phạm Anh Dũng - D22_TH07</li>
+            <li>DH52201400 - Nguyễn Minh Tâm - D22_TH07</li>
+            <li>DH52201540 - Nguyễn Thức - D22_TH07</li>
+            <li>DH52201675 - Hoàng Nhật Trường - D22_TH07</li>
+            <li>DH52200381 - Vòng Thanh Bảo - D22_TH08</li>
+        </ul>
+    </div>
+    <div class="formInsert">
+        <h1 style="text-align: center;">Nhập thông tin</h1>
+        <label for="username" style="font-size: 18px;">Nhập tên:</label><br>
+        <div style="display: flex; gap:10px">
+            <input type="text" id="username" style="flex-grow: 1;">
+            <button id="btnSave">Lưu</button>
+        </div>  
+    </div>
+    <br>
+    <div class="tableData">
+        <table id="tableStudents" style="width: 100%;">
+            <tr>
+                <th>ID</th>
+                <th>Avatar</th>
+                <th>Full Name</th>
+                <th>Action</th>
+            </tr>
+        </table>
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
