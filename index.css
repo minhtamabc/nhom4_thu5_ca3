@@ -43,11 +43,11 @@ td:nth-child(3){
     color: white;
     background-color: red;
     margin-left: 20px;
-    margin-right: 5px;
 }
 .bg-warning{
     color: black;
     background-color: yellow;
+    margin-left: 20px;
 }
 .formInsert{
     min-width: 350px;
